@@ -1,0 +1,129 @@
+.navbar-expand-md .navbar-nav .nav-link{
+    font-size: 1.2rem;
+}
+
+.navbar{
+    box-shadow: none;
+}
+
+.navbar-brand{
+    position: relative;
+}
+
+.navbar-brand img{
+    height: 4rem;
+    width: auto;
+}
+
+.bg-purple{
+    background-color:  rgba(143,25,229,0.7) !important;
+}
+
+.top-nav-collapse{
+    
+    background-color:  rgb(181, 88, 224,0.8) !important;
+    
+   /*
+    background-color: #a6c !important;
+    */
+}
+
+ul{
+    list-style: none;
+}
+.fa-circle{
+    font-size: 0.7rem;
+}
+
+.text-indigo-lighten-1{
+    color: #807BE7 !important;
+}
+
+.rgba-indigo-lighten-1{
+    background-color:  rgb(196, 120, 238,0.8) !important;
+}
+
+.bg-indigo-lighten-1{
+    background-color: rgb(196, 120, 238) !important;
+}
+
+  body{
+   background: #fff;
+  }
+
+  .gradient-secondary{
+    background: #B993D6;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #8CA6DB, #B993D6);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #8CA6DB, #B993D6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+  }
+
+  .card-img{
+      max-width: 100px;
+  }
+
+  .card{
+      border-radius: 10px;
+  }
+
+  .indigo-lighten-1{
+    background-color: #5c6bc0 ;
+  }
+
+   .indigo-lighten-2{
+       background-color: #7986cb;
+   }
+
+   .font-weight-bolder{
+       font-weight: bolder;
+   }
+
+   .form-control:focus{
+       color:#fff;
+   }
+
+   .md-form input[type="text"]:focus:not([readonly]),
+   .md-form  input[type="email"]:focus:not([readonly]),
+   .md-form  input[type="number"]:focus:not([readonly]),
+   .md-form textarea.md-textarea:focus:not([readonly]){
+       box-shadow: 0 2px 0 0 #FAFAFA;
+       border-bottom: #FAFAFA;
+   }
+
+.signal{
+    position: absolute;
+    top: -3em;
+    height: 0;
+    width: 0;
+}
+
+.signalBig{
+    position: absolute;
+    top: -7em;
+    height: 0;
+    width: 0;
+}
+
+.md-form label.active.label-min{
+    transform: translateY(-70%);
+}
+
+.md-form input.input-indigo-lighten-1{
+    color:#000;
+}
+.md-form input:focus:not([readonly]).input-indigo-lighten-1{
+    border-bottom: 1px solid rgb(196, 120, 238);
+}
+
+.md-form input:focus:not([readonly]).input-indigo-lighten-1 + label{
+    color:rgb(196, 120, 238);
+}
+
+.btn-indigo-lighten-1{
+    background-color: rgb(196, 120, 238);
+    color: #fff;
+}
+
+.md-form .prefix.prefix-indigo-lighten-1.active{
+    color:  rgb(196, 120, 238);
+}
